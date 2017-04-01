@@ -5,4 +5,4 @@ release:
 	git tag $(version)
 	git push
 	git push --tags
-	python setup.py sdist bdist_wheel
+	python setup.py sdist bdist_wheel register upload
